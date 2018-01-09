@@ -7,7 +7,7 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  tempobj = {}
+  var tempobj = {}
   tempobj[key] = value
   var newobject = Object.assign({}, object, tempobj)
   return newobject
